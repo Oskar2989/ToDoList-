@@ -21,12 +21,11 @@ class ToDoDetailsViewController: UIViewController {
     var toDoItem: ToDoItem!
     
     var toDoIndex: Int!
-let messgae = "Hello World"
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-         print(messgae)
+        // Do any additional setup after loading the view.
         
         taskTitleLabel.text = toDoItem.name
         
